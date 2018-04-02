@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="practicaltest01var08.eim.systems.cs.pub.ro.practicaltest01var08.PracticalTest01Var08MainActivity">
+
+    <EditText
+        android:id="@+id/riddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/answer"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/answer"
+        android:layout_marginTop="26dp"
+        android:ems="7"
+        android:enabled="true"
+        android:gravity="center"
+        android:inputType="text"
+        android:saveEnabled="false"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/play"
+        android:layout_alignRight="@+id/play"
+        android:layout_below="@+id/riddle"
+        android:layout_marginTop="27dp"
+        android:ems="7"
+        android:enabled="true"
+        android:gravity="center"
+        android:inputType="text"
+        android:saveEnabled="false"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="play"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+
+</RelativeLayout>
